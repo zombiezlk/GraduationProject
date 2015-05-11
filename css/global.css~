@@ -1,0 +1,105 @@
+/* global
+ ---------------------------------------------------------------------*/
+body {
+	background:#efeee4;
+}
+/* header
+ ---------------------------------------------------------------------*/
+.container>:first-child {
+	margin-bottom:3px;
+	overflow:auto;
+}
+
+.container>:first-child a {
+	color:#78788C;
+}
+
+.container div span {
+	float:right;
+	margin-left:3px;
+}
+
+.container div form {
+	margin:20px 0 20px 20px;
+}
+
+.container div form div {
+	width:220px;
+	text-align:right;
+}
+
+.container div button {
+	display:block;
+}
+
+/* index
+ ---------------------------------------------------------------------*/
+#content .span4>div {
+	padding:10px;
+	margin-bottom:20px;
+	background:#fff;
+	box-shadow:0 0 20px rgba(50,50,50,.1);
+}
+
+#content .span4 img {
+	min-width:280px;
+}
+
+#login {
+	z-index:-1;
+}
+/* register
+ ---------------------------------------------------------------------*/
+#register {
+	margin-left:200px;
+}
+/* admingoods
+ ---------------------------------------------------------------------*/
+#addgoods {
+	margin-left:200px;
+}
+/* footer
+ -------------------------------------------------------------------*/
+footer {
+	position:fixed;
+	bottom:0;
+}
+/* goods
+ -------------------------------------------------------------------*/
+#goodsinfo {
+	background:#fff;
+	box-shadow:0 0 20px rgba(50,50,50,.1);
+	padding-left:10px;
+}
+
+#goodsinfo input[type="text"] {
+	width:50px;
+	height:15px;
+}
+#goodsinfo .row {
+	margin-top:10px;
+}
+
+.goods_img {
+	width:300px;
+	height:auto;
+}
+
+/* cart
+ -------------------------------------------------------------------*/
+.order .row,.cart .row{
+	height:50px;
+	line-height:50px;
+	background:#fff;
+	box-shadow:0 0 20px rgba(50,50,50,.1);
+	border-radius:5px;
+	margin-left:0;
+}
+
+.order .row,.cart .row:first-child {
+	margin:0 0 10px 0;
+}
+
+.order .row:nth-child(2n),.cart .row:nth-child(2n) {
+	background:#D2D2BF;
+}

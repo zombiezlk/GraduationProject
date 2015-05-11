@@ -1,0 +1,8 @@
+(function(){  
+	$(".get_quantity").click(function(){
+		var url = $(this).attr("href") + window.location.search + "&quantity=" + $("#quantity").val();
+		window.location.href(url);
+	});
+})();
+
+
